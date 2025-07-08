@@ -2,6 +2,8 @@
 
 OpenAPI 3.0 specification for the **Zuwendungsempfängerregister** (ZER) search endpoint provided by the German Federal Central Tax Office (BZSt).
 
+[![Open in Swagger UI](https://img.shields.io/badge/Open%20in-Swagger%20UI-85EA2D?logo=swagger)](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tifa365/zer_openapi_specs/main/zer_search_openapi.yaml)
+
 ## Overview
 
 The ZER API allows you to search for organizations that are eligible to issue tax-deductible donation receipts in Germany.
@@ -10,7 +12,11 @@ The ZER API allows you to search for organizations that are eligible to issue ta
 
 ## Quick Start
 
-### View Documentation
+### View Documentation Online
+
+🌐 **[Open in Swagger UI](https://petstore.swagger.io/?url=https://raw.githubusercontent.com/tifa365/zer_openapi_specs/main/zer_search_openapi.yaml)** - View and test the API directly in your browser
+
+### View Documentation Locally
 
 ```bash
 # Using Swagger UI (Docker)
