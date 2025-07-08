@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: ZER Charity Search API
-  version: "1.0.0"
+  version: "1.0.1"
   description: |
     This OpenAPI specification describes the publicly accessible **Zuwendungsempfängerregister** (ZER)
     search endpoint provided by the German Federal Central Tax Office (BZSt).
