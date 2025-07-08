@@ -7,6 +7,14 @@ info:
     search endpoint provided by the German Federal Central Tax Office (BZSt).
     
     The endpoint lets you search organisations that are eligible to issue tax‑deductible donation receipts.
+    
+    ⚠️ **CORS Warning**: This API does not support CORS and cannot be called directly from web browsers. 
+    The "Try it out" feature in Swagger UI will fail with a CORS error. 
+    
+    **How to test this API:**
+    - Use command-line tools like `curl` (copy the curl command from below)
+    - Use API testing tools like Postman or Insomnia
+    - Call the API from your backend server code
 servers:
   - url: https://zer.bzst.de/api/v1
 paths:
@@ -16,6 +24,8 @@ paths:
       description: |
         Returns a paginated list of organisations that match the given search criteria.
         Every parameter is optional; omitting a parameter broadens the search scope.
+        
+        ⚠️ **Note**: Browser requests will fail due to CORS. Use the curl command shown below.
       parameters:
         - name: label
           in: query
